@@ -1,0 +1,10 @@
+1001         % Number of meshpoints n
+0.2          % lambda
+0.1          % b
+100.         % Length of domain in scaled units 
+20.          % xstart - starting point of epidemic
+5.           % xspr - Gaussian spread of infectives around starting point
+0.5          % amp - amplitude of Gaussian spread of initial infectives:  I0=amp*exp(-((x-xstart)/xspr).^2);
+0.2          % alpha - stability factor of scheme 
+1300         % Total integration time in scaled units
+650          % Number of plots (uniformly spaced), including one of ICs

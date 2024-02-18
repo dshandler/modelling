@@ -1,0 +1,7 @@
+1001         % Number of meshpoints n
+100.         % Length of domain in scaled units xlen
+50.          % Centre of initial gaussian T0centre
+5.           % Gaussian spread of T0 around centre T0spread
+0.5          % Control factor for stability of scheme fac
+1300         % Total intergration time in scaled units (100 if fac=0.51)
+650          % Number of plots, including IC (uniformly spaced) (50 if fac=0.51)
